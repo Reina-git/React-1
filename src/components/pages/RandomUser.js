@@ -90,7 +90,7 @@ class RandomUser extends React.Component {
                 <h2>
                   {item.name.title} {item.name.first} {item.name.last}
                 </h2>
-                <img src={item.picture.thumbnail}></img>
+                <img src={item.picture.thumbnail} alt="thumbnail"></img>
               </div>
             ))}
           </div>
